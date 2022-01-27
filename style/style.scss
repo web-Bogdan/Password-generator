@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+    
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    background-color: #644aff
+}       
+
+.brand{
+    height: 100vh;
+    width: 33%;
+    background-color: #9512a1;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.title{
+    font-size: 3.4rem;
+    color: #ffffff;
+}
+
+.create_passwords{
+    width: 66%;
+    padding-top: 120px;
+    margin-left: 33%;
+}  
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.range{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 36px 65px 36px 45px;
+    position: relative;
+}
+
+.field{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.field input{
+    height: 3px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}   
+
+.value{
+    position: absolute;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #644aff;
+} 
+
+.left{
+    left: 9px;
+} 
+.right{
+    right: 9px
+}   
+.slider-value{
+    position: relative;
+    width: 100%;
+}   
+.slider_value span{
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    height: 25px;
+    width: 95px;
+    background-color: #df376f;
+    color: #fff;
+    font-weight: 500;
+    top: -11px;
+    left: 49%;
+    transform: translateX(-50%);
+    z-index: 2;  
+}           
+.customize{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.settings{
+    background-color: #ffffff;
+    flex: 0 0 33%;
+    min-height: 300px;
+    border-radius: 10px;
+    align-self: flex-start;
+}    
+
+.block_title{
+    text-align: center;
+    font-size: 1.5rem;
+} 
+.line{
+    margin-bottom: 40px;
+}    
+.checkbox{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-left: 25px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.checkbox input{
+    transform: scale(1.4);
+    cursor: pointer;
+    margin-right: 7px;
+}   
+
+.password_list{
+    flex: 0 0 62%;
+    min-height: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}            
+
+.password{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+.password:last-child{
+    margin-bottom: 0;
+}
+
+.refresh{
+    position: absolute;
+    width: 25px;
+    cursor: pointer;
+    left: 4px;
+    top: 6px;
+}

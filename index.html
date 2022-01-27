@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>  
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/index.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="brand">
+            <h1 class="title">Generate Passwords</h1>
+        </div>
+        <div class="create_passwords">
+            <div class="container">
+            <div class="range">
+                <div class="slider_value">
+                    <span>length 16</span>
+                </div>
+                <div class="field">
+                    <div class="value left">6</div>
+                    <input type="range" min="6" max="26" value="16" step="1">
+                    <div class="value right">26</div>
+                </div>
+            </div>
+            <div class="customize">
+            <div class="settings">
+                <h3 class="block_title">Customize your password</h3> 
+                <hr class="line">
+                <label class="checkbox">
+                    <input type="checkbox" id="param-1"> Uppercase 
+                </label>              
+                <label class="checkbox">
+                    <input type="checkbox" id="param-2"> Numbers
+                </label>              
+                <label class="checkbox">
+                    <input type="checkbox" id="param-3"> Symbols
+                </label>              
+            </div>
+            <div class="password_list">
+                <h3 class="block_title">Passwords list</h3>
+                <hr class="line">
+                <img class="refresh" src="img/redo-alt-solid.svg" alt="refresh">
+            </div>
+            </div>
+            </div>
+        
+        </div>
+        
+    </div>
+</body>
+</html>
